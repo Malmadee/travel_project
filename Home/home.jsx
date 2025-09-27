@@ -1,16 +1,4 @@
-import React, {useEffect} from 'react'
-import './home.css'
-import video from '../Assets/video.mp4'
-import { GrLocation } from 'react-icons/gr'
-import { HiFilter } from 'react-icons/hi'
-import { FiFacebook } from 'react-icons/fi'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { SiTripadvisor } from 'react-icons/si'
-import { BsListTask } from 'react-icons/bs'
-import { TbApps } from 'react-icons/tb'
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 
 const Home = () => {
@@ -39,7 +27,7 @@ const Home = () => {
 
         <div data-aos="fade-up" className="cardDiv grid">
           <div className="destinationInput">
-            <label htmlFor='city'>Search your destination:</label>
+            <label htmlFor='city'></label>
             <div className="input flex">
               <input type="text" placeholder='Enter name here'/>
               <GrLocation className="icon"/>
@@ -71,10 +59,7 @@ const Home = () => {
         </div>
 
         <div data-aos="fade-up" className="homeFooterIcons flex">
-          <div className="rightIcons">
-            <FiFacebook className="icon"/>
-            <AiOutlineInstagram className="icon"/>
-            <SiTripadvisor className="icon"/>
+          <div />
           </div>
 
           <div className="leftIcons">
