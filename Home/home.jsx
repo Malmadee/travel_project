@@ -5,6 +5,7 @@ import { GrLocation } from 'react-icons/gr'
 import { HiFilter } from 'react-icons/hi'
 import { FiFacebook } from 'react-icons/fi'
 import { AiOutlineInstagram } from 'react-icons/ai'
+import { SiTripadvisor } from 'react-icons/si'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
