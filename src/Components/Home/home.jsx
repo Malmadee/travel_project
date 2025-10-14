@@ -46,7 +46,6 @@ const Home = () => {
             </div>
           </div>
 
-
           <div className="dateInput">
             <label htmlFor='date'>Select your date:</label>
             <div className="input flex">
